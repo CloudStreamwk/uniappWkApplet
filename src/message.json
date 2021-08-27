@@ -1,0 +1,34 @@
+{
+    "list":[
+        {
+            "id":1,
+            "src":"fans.jpg",
+            "name":"粉丝",
+            "content":"扬扬关注了你"
+        },
+        {
+            "id":2,
+            "src":"interactive_message.jpg",
+            "name":"互动消息",
+            "content":"1人最近访问了你的主页，看看他们是谁"
+        },
+        {
+            "id":3,
+            "src":"little_assistant.jpg",
+            "name":"抖音小助手",
+            "content":"抖音圈子有奖用户调研"
+        },
+        {
+            "id":4,
+            "src":"system_notification.jpg",
+            "name":"系统通知",
+            "content":"协议修订通知"
+        },
+        {
+            "id":5,
+            "src":"game_notification.jpg",
+            "name":"游戏通知",
+            "content":"游戏小助手升级通知"
+        }
+    ]
+}

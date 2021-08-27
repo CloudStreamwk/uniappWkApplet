@@ -1,0 +1,91 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/city/city",
+			"style": {
+				"navigationBarTitleText": "城市"
+			}
+		},
+		{
+			"path": "pages/player/player",
+			"style": {
+				"navigationBarTitleText": "视频页面"
+			}
+		},
+		{
+			"path": "pages/changeInfo/changeInfo",
+			"style": {
+				"navigationBarTitleText": "编辑资料"
+			}
+		},
+		{
+			"path": "pages/modify/modify",
+			"style": {
+				"navigationBarTitleText": "编辑名称"
+			}
+		},
+		
+		{
+			"path": "pages/personal/personal",
+			"style": {
+				"navigationBarTitleText": "我"
+			}
+		},
+		{
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		
+		{
+			"path": "pages/follow/follow",
+			"style": {
+				"navigationBarTitleText": "关注"
+			}
+		},
+		
+		{
+			"path": "pages/changeCity/changeCity",
+			"style": {
+				"navigationBarTitleText": "选择城市"
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "万科视频",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationStyle": "custom",
+		"backgroundColor": "#F8F8F8"
+	},
+	"style": {
+		"app-plus": {
+			"animationType": "fade-in",
+			"animationDuration": 300
+		}
+	},
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/index/index"
+			},
+			{
+				"pagePath": "pages/city/city"
+			},
+			{
+				"pagePath": "pages/news/news"
+			},
+			{
+				"pagePath": "pages/personal/personal"
+			}
+		]
+	}
+}
